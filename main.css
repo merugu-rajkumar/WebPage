@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600; 
+}
+/* ----------Head part Start-------------------- */
+header{
+
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 0;
+    cursor: pointer;
+}
+.nav-list{
+    list-style: none;
+    margin-left: 10px;
+}
+.nav-list li{
+    display: inline-block;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #666666;
+}
+.nav-list li a:hover{
+    color: black;
+}
+.btn-login{
+    margin: 0;
+    padding: 0px 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #68a7e2;
+}
+
+.btn-login:hover{
+    color: #3ae83a;
+    background: white;
+    border: 2px solid #3ae83a;
+}
+
+/* ---------- Head part End -------------------- */
+
+/* ---------- 1st sections part start -------------------- */
+
+.section-1{
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 img{
+    width: 100%;
+}
+
+.text-wrapper{
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: -30%;
+    margin-left: 50%;
+}
+
+.text-wrapper h1{
+    color: #3ae83a;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.text-wrapper p{
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.text-wrapper h3{
+    margin-top: 15px;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.btn-join{
+    text-decoration: none;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: #3ae83a;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+   margin: 0px;
+   padding: 0px;
+}
+
+header{
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+}
+
+#logo{
+    padding: 20px 0;
+}
+
+.navbar{
+    margin: 0;
+    padding: 10px 20px;
+    display: inline;
+}
+
+.nav-list{
+    list-style-type: none;
+}
+
+.nav-list li{
+    margin: 20px;
+    display: inline-block;
+    padding: 20PX 10px;
+    text-decoration: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+ */
